@@ -207,12 +207,12 @@ with col_detail:
             st.markdown(detail["description"])
 
             # Кнопка покупки
-            if detail["buy_url"]:
-                st.link_button(
-                    "🎟️ Купить билет",
-                    detail["buy_url"],
-                    use_container_width=True,
-                )
+            # if detail["buy_url"]:
+            #     st.link_button(
+            #         "🎟️ Купить билет",
+            #         detail["buy_url"],
+            #         use_container_width=True,
+            #     )
 
             # Ссылка на оригинальную страницу
             st.caption(f"[Открыть на сайте филармонии]({event['url']})")
